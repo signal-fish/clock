@@ -11,7 +11,7 @@ module.exports = merge(common, {
   output: {
     path: paths.build,
     // Change the publicPath to /repository-name/ when you use github pages
-    publicPath: "/",
+    publicPath: "/clock",
     filename: "js/[name].[contenthash].bundle.js",
   },
   module: {
